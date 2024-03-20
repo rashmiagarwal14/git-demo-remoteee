@@ -1,0 +1,58 @@
+pwd 
+mkdir
+cd and cd ..
+ls
+
+
+init
+
+-----
+pwd -- print working directory	
+		> displays your current working directory location 
+
+cd [loc] -- change directory
+		> allows you to move throughout the computer
+
+mkdir -- make directory
+		> creates a new folder in the current directory 
+
+ls > displays/lists the contents of the current directory 
+
+touch [filename] > creates a new file in the current directory 
+
+rm [filename] > deleting/removing a file 
+
+--------
+Repository -- like a folder/container that stores files/folders related to a project. It keeps track of the changes made over time.
+
+	> Local Repository -- version of the repository is stored on your local computers
+
+	> Remote Repository -- version of the repository is stored on a server or cloud-based platform [GitHub]
+
+git init
+	-- initialize a folder
+
+git config --global user.name "username"
+git config --global user.email "email address"
+	-- sets the user's username and email address for tracking
+
+git config --global user.name
+git config --global user.email
+	-- checks if username and email are successfully connected
+git add . 
+	-- adds all modified files in your current directory to the staging area
+
+git add [filename]
+	-- adds a specific file to the staging area
+
+git commit -m "message"
+	-- saves the changes that you've made to the files in the staging area to the repository. The message describes the changes that were made in this commit.
+
+git status 
+	-- displays the current status of your file or folder
+
+git log 
+	-- displays all the commits that were made
+
+git log --oneline
+	-- condensed version of git log
