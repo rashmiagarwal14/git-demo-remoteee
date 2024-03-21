@@ -7,6 +7,7 @@ ls
 init
 
 -----
+
 pwd -- print working directory	
 		> displays your current working directory location 
 
@@ -28,7 +29,8 @@ Repository -- like a folder/container that stores files/folders related to a pro
 	> Local Repository -- version of the repository is stored on your local computers
 
 	> Remote Repository -- version of the repository is stored on a server or cloud-based platform [GitHub]
-
+git --version 
+       -- to know the version of git u are using 
 git init
 	-- initialize a folder
 
